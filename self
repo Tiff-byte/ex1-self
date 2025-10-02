@@ -1,0 +1,159 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Chan Tiffany</title>
+    <style>
+        body {
+            font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+            background-color: #f5f0ff;
+            color: #333;
+            line-height: 1.6;
+        }
+        
+        .container {
+            max-width: 800px;
+            margin: 0 auto;
+            padding: 20px;
+        }
+        
+        header {
+            text-align: center;
+            margin-bottom: 30px;
+            padding: 20px;
+            background-color: #6a5acd;
+            color: white;
+            border-radius: 10px;
+            box-shadow: 0 4px 6px rgba(0,0,0,0.1);
+        }
+        
+        h1 {
+            font-size: 2.5rem;
+            margin-bottom: 10px;
+            text-shadow: 1px 1px 2px rgba(0,0,0,0.2);
+        }
+        
+        .intro {
+            background-color: lightgoldenrodyellow;
+            padding: 20px;
+            border-radius: 10px;
+            margin-bottom: 30px;
+            box-shadow: 0 2px 4px rgba(0,0,0,0.05);
+        }
+        
+        .image-container {
+            text-align: center;
+            margin: 20px 0;
+        }
+        
+        img {
+            max-width: 100%;
+            height: auto;
+            border-radius: 10px;
+            box-shadow: 0 4px 8px rgba(0,0,0,0.1);
+        }
+        
+        .link-container {
+            text-align: center;
+            margin: 20px 0;
+        }
+        
+        a {
+            color: #6a5acd;
+            text-decoration: none;
+            font-weight: bold;
+            padding: 8px 16px;
+            border: 2px solid #6a5acd;
+            border-radius: 5px;
+            transition: all 0.3s ease;
+        }
+        
+        a:hover {
+            background-color: #6a5acd;
+            color: white;
+        }
+        
+        .canteen-reviews {
+            background-color: white;
+            padding: 20px;
+            border-radius: 10px;
+            box-shadow: 0 2px 4px rgba(0,0,0,0.05);
+        }
+        
+        .canteen {
+            margin-bottom: 25px;
+            padding-bottom: 15px;
+            border-bottom: 1px dashed #ddd;
+        }
+        
+        .canteen:last-child {
+            border-bottom: none;
+        }
+        
+        h2 {
+            color: #6a5acd;
+            border-bottom: 2px solid #f0e6ff;
+            padding-bottom: 5px;
+        }
+        
+        .rating {
+            color: #ffc107;
+            font-size: 1.2rem;
+        }
+        
+        .comment {
+            background-color: #f9f7ff;
+            padding: 10px;
+            border-radius: 5px;
+            margin-top: 10px;
+        }
+    </style>
+</head>
+<body>
+    <div class="container">
+        <header>
+            <h1>Chan Tiffany</h1>
+            <p>Welcome to my personal webpage!</p>
+        </header>
+        
+        <section class="intro">
+            <h2>About Me</h2>
+            <p>Hello! I'm Tiffany, a LLA student at City University of Hong Kong. I love exploring new technologies, trying different foods, and sharing my experiences with others. This webpage is a simple introduction to who I am.</p>
+        </section>
+        
+        <div class="image-container">
+            <img src="IMG_0001.JPG" alt="Profile Image">
+        </div>
+        
+        <div class="link-container">
+            <a href="https://www.google.com" target="_blank">Visit Google</a>
+        </div>
+        
+        <section class="canteen-reviews">
+            <h2>CityU Canteen Reviews</h2>
+            
+            <div class="canteen">
+                <h3>AC1 Canteen</h3>
+                <div class="rating">⭐⭐⭐⭐</div>
+                <div class="comment">
+                </div>
+            </div>
+            
+            <div class="canteen">
+                <h3>AC2 Canteen</h3>
+                <div class="rating">⭐</div>
+                <div class="comment">
+                </div>
+            </div>
+            
+            <div class="canteen">
+                <h3>AC3 Canteen</h3>
+                <div class="rating">⭐⭐⭐</div>
+                <div class="comment">
+                </div>
+            </div>
+        </section>
+    </div>
+</body>
+</html>
